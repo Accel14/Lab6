@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+img:hover{
+    filter: brightness(110%) drop-shadow(2px 2px 0 black) drop-shadow(-2px -2px 0 black);
+    transform: scale(1.1);
+    /*border: 2px solid purple;*/
+    transition: filter 0.2s, transform 0.2s;
+}
+
+
+html {
+    font-size: 22px;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: #313338;
+    color: #DBDEE1
+}
+
+th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+td:hover {background-color: #2c2d30;}
+
+table {
+    table-layout: fixed;
+    width: 900px;
+}
+
+a {
+    color: #c2df21;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+a:visited {
+    color: #c2df21;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+a:hover {
+    color: #8a9e15;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
